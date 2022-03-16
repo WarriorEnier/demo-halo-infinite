@@ -1,0 +1,80 @@
+@media (prefers-color-scheme: dark){
+    header{
+        background-image: url('../image/halo-infinite-cover-darkmode.jpg');
+    }
+}
+
+@media (prefers-color-scheme: light){
+    body{
+        background-color: white;
+    }
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5{
+        color: black;
+    }
+
+    header{
+        background-image: url('../image/halo-infinite-cover.jpeg');
+    }
+
+    nav{
+        background-color: rgba(255,255,255,0.4);
+    }
+
+    nav ul li a{
+        color: black;
+    }
+
+    nav ul li .link::before{
+        background-color: black;
+    }
+
+    nav .mobile .header{
+        background-color: rgba(255,255,255,1);
+    }
+
+    nav .mobile .header a{
+        color: black;
+    }
+    
+    nav .mobile .header #bmenu{
+        color: black;
+    }
+
+    nav .mobile .links{
+        
+        background-color: white;
+    }
+
+    nav .mobile .links a{
+        color: black;
+    }
+
+    nav .mobile .links a:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    #banner{
+        color: black;
+        background-color: white;
+    }
+
+
+
+    footer{
+        background-image: url('../image/master-chief.jpg');
+    }
+
+    @media screen and (max-width:1164px){
+        .info{
+            background-color: rgba(255, 255, 255, 0.623);
+        }
+    }
+    
+} 
+
